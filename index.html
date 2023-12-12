@@ -4,142 +4,231 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/images/logo.png" type="image/png">
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav>
-            <a href="index.html">
+            <a class="logo" href="index.html">
+                <img 
+                    src="/images/logo.png" 
+                    alt="logo"
+                    width="39"
+                    height="30"
+                />
                 <span>Finance</span> Ledger
             </a>
             <ul>
-                <li> <a href=""> </a>Home</li>
-                <li> <a href=""> </a>About</li>
-                <li> <a href=""> </a>Cases</li>
-                <li> <a href=""> </a>Blog</li>
-                <li> <a href=""> </a>Contact</li>
+                <li>
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="">About</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="">Cases</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="">Blog</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
     <main>
         <!--hero section-->
-        <section>
+        <section class="hero">
             <h1>The Sky Is The Limit</h1>
             <p>We provide world class financial assistance</p>
             <button type="button">Read More</button>
         </section>
-        <!--second section-->
-        <section>
-                <img src="./images/img-2.jpg" alt="the team of company"
-                    width="670"
-                    height="460">
-                
-                    <p>What you are looking for</p>
-                    <h2>We provide bespoke solutions</h2>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam
-                        aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?
-                    </p>
-                    <button type="button">Read More</button>
+        <!--offers section-->
+        <section class="offers">
+            <img 
+                src="./images/img-2.jpg" 
+                alt="the team of company"
+                width="670"
+                height="460"
+            />
+            <p class="offers-p1">What you are looking for</p>
+            <h2>We provide bespoke solutions</h2>
+            <p class="offers-p2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam
+                aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <button type="button">Read More</button>
         </section>
         <!--Business Cases section-->
-        <section>
-            <p>This is what we do</p>
+        <section class="cases">
+            <p class="cases-p1">This is what we do</p>
             <h2>Business Cases</h2>
-            <p>
+            <p class="cases-p2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!
             </p>
             <ul>
-                <li><img src="./images/bussines-cases-section/img-1.jpg" alt="team works"
-                    width="421"
-                    height="282">
+                <li>
+                    <img 
+                        src="./images/bussines-cases-section/img-1.jpg" 
+                        alt="team works"
+                        width="421"
+                        height="282"
+                    />
                 </li>
-                <li><img src="./images/bussines-cases-section/img-2.jpg" alt="desk and charts"
-                    width="421"
-                    height="282">
+                <li>
+                    <img 
+                        src="./images/bussines-cases-section/img-2.jpg" 
+                        alt="desk and charts"
+                        width="421"
+                        height="282"
+                    />
                 </li>
-                <li><img src="./images/bussines-cases-section/img-3.jpg" alt="handshake"
-                    width="421"
-                    height="282">
+                <li>
+                    <img 
+                        src="./images/bussines-cases-section/img-3.jpg" 
+                        alt="handshake"
+                        width="421"
+                        height="282"
+                    />
                 </li>
-                <li><img src="./images/bussines-cases-section/img-4.jpg" alt="team spirit"
-                    width="421"
-                    height="282">
+                <li>
+                    <img 
+                        src="./images/bussines-cases-section/img-4.jpg" 
+                        alt="team spirit"
+                        width="421"
+                        height="282"
+                    />
                 </li>
-                <li><img src="./images/bussines-cases-section/img-5.jpg" alt="desk and laptop"
-                    width="421"
-                    height="282">
+                <li>
+                    <img 
+                        src="./images/bussines-cases-section/img-5.jpg" 
+                        alt="desk and laptop"
+                        width="421"
+                        height="282"
+                    />
                 </li>
-                <li><img src="./images/bussines-cases-section/img-6.jpg" alt="glass skyscrapers"
-                    width="421"
-                    height="282">
+                <li>
+                    <img 
+                        src="./images/bussines-cases-section/img-6.jpg" 
+                        alt="glass skyscrapers"
+                        width="421"
+                        height="282"
+                    />
                 </li>
             </ul>
         </section>
         <!--Our blog section-->
-        <section>
-                <img src="./images/img-9.jpg" alt="desk with notebooks" width="670" height="460">
-                    <p>April 16 2020</p>
-                    <h2>Blog Post One</h2>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?
-                    </p>
-                    <button type="button">Read Our Blog</button>
+        <section class="blog">
+                <img 
+                    src="./images/img-9.jpg" 
+                    alt="desk with notebooks" 
+                    width="670" 
+                    height="460"
+                />
+                <p class="blog-p1">April 16 2020</p>
+                <h2>Blog Post One</h2>
+                <p class="blog-p2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?
+                </p>
+                <button type="button">Read Our Blog</button>
 
         </section>
         <!--Our team section-->
-        <section>
-            <p>Who we are</p>
+        <section class="team">
+            <p class="team-p1">Who we are</p>
             <h2>Our Professional Team</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+            <p class="team-p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
             <ul>
                 <li>
-                    <img src="./images/team/img-1.jpg" alt="John Doe's photo"
-                    width="421"
-                    height="286">
+                    <img 
+                        src="./images/team/img-1.jpg" 
+                        alt="John Doe's photo"
+                        width="421"
+                        height="286"
+                    />
                     <h3>John Doe</h3>
-                    <p>President</p>
+                    <p class="team-p2">President</p>
                 </li>
                 <li>
-                    <img src="./images/team/img-2.jpg" alt="Jane Doe's photo"
-                    width="421"
-                    height="286">
+                    <img 
+                        src="./images/team/img-2.jpg" 
+                        alt="Jane Doe's photo"
+                        width="421"
+                        height="286"
+                    />
                     <h3>Jane Doe</h3>
-                    <p>Vice Presiden</p>
+                    <p class="team-p2">Vice Presiden</p>
                 </li>
                 <li>
-                    <img src="./images/team/img-3.jpg" alt="Steve Smith's photo"
-                    width="421"
-                    height="286">
+                    <img 
+                        src="./images/team/img-3.jpg" 
+                        alt="Steve Smith's photo"
+                        width="421"
+                        height="286"
+                    />
                     <h3>Steve Smith</h3>
-                    <p>Marketing Head</p>
+                    <p class="team-p2">Marketing Head</p>
                 </li>
             </ul>
         </section>
-        <!--callback section НЕ ВЧИЛИ,ВЗЯЛА З НЕТУ-->
-        <section>
+        <!--callback section НЕ ВЧИЛИ-->
+        <section class="form">
+            <img src="./images/img-13.jpg" alt="">
             <h2>Request Callback</h2>
-            <form action="" method="get" class="form-example">
-                <div class="form-example">
-                    <label for="name">Enter your name</label>
-                    <input type="text" name="name" id="name" required />
-                </div>
-                <div class="form-example">
-                    <label for="email">Enter email*</label>
-                    <input type="email" name="email" id="email" required />
-                </div>
-                <div class="form-example">
-                    <input type="submit" value="Send" />
-                </div>
+            <form name="signup_form" autocomplete="on" novalidate>
+                <label>
+                    <input type="text" name="full-name" placeholder="Enter your name" />
+                </label>
+                <label>
+                    <input type="email" name="email" placeholder="Enter email*" />
+                </label>
+                <!--тип кнопки все одно submit чи send? +не знаю, звідки рамка-->
+                <button type="submit">Send</button>
             </form>
-
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <ul> 
-            <li><img src="./images/logos/facebook.png" alt="facebook"></li>
-            <li><img src="./images/logos/tweeter.png" alt="tweeter"></li>
-            <li><img src="./images/logos/youtube.png" alt="youtube"></li>
-            <li><img src="./images/logos/instagram.png" alt="instagram"></li>
+            <li>
+                <a href="">
+                    <img 
+                    src="./images/logos/facebook.png" 
+                    alt="facebook"
+                    />
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img 
+                    src="./images/logos/tweeter.png" 
+                    alt="tweeter"
+                    />
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img 
+                    src="./images/logos/youtube.png" 
+                    alt="youtube"
+                    />
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img 
+                    src="./images/logos/instagram.png" 
+                    alt="instagram"
+                    />
+                </a>
+            </li>
         </ul>
         <p>Copyright &copy; 2021 - FinanceLedger</p>
     </footer>
